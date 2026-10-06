@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="robots" content="noindex,nofollow"/>
+  <meta name="referrer" content="no-referrer"/>
+  <title>Fit Survey | We Are Benefits</title>
+  <link href="styles.css" rel="stylesheet"/>
+  <link href="fit-survey/fit-survey.css" rel="stylesheet"/>
+</head>
+<body class="fs-body">
+  <!-- Private survey page. Not linked from the site menu on purpose.
+       Opened only through one-time links WAB sends: fit-survey.html?t=<token> -->
+  <header class="fs-header">
+    <img alt="We Are Benefits LLC" src="wab-logo-yb-with-name.png"/>
+  </header>
+
+  <main class="fs-main">
+    <div class="fs-card" id="app" aria-live="polite">
+      <div class="fs-loading">Loading your survey…</div>
+    </div>
+    <div class="fs-toast" id="toast" role="status" hidden>Answers are locked once you press Next.</div>
+  </main>
+
+  <footer class="fs-footer">
+    <p id="legal">
+      This survey is for general information only and is not tax, legal or insurance advice. No savings or results are guaranteed.
+      Program availability, eligibility and terms are set by the program providers after their review. Insurance products, where involved,
+      are offered only through properly licensed persons. We Are Benefits, LLC d/b/a WAB Insurance Agency.<span id="license"></span>
+    </p>
+    <p>&copy; 2026 We Are Benefits, LLC. All rights reserved.</p>
+  </footer>
+
+  <script src="fit-survey/config.js"></script>
+  <script src="fit-survey/fit-survey.js"></script>
+</body>
+</html>
